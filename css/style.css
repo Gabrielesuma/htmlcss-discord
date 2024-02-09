@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+:root {
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
+
+header{
+    background-color: var(--color-header-bg);
+    color: var(--color-scondary);
+}
+
+.pad-r{
+    padding-right: 20px;
+}
+
+.padding{
+    padding: 10px;
+}
+
+.link-bg{
+    background-color: var(--color-scondary);
+    border-radius: 20px;
+}
+
+.disbro-bg{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+    border-radius: 20px;
+}
+
+#hero{
+    background-image: url("../img/jumbo.png");
+    min-height: 500px;
+    background-size: cover;
+}
+
+.debug{
+    border: 2px solid black;
+}
+
+body{
+    font-family: "Noto Sans", sans-serif;
+    background-color: var(--color-scondary);
+}
+
+.section-bg{
+    background-color: var(--color-section-bg);
+}
+
+.left{
+    width: 60%;
+}
+
+.left-img{
+    width: 100%;
+}
+
+.right{
+    width: 40%;
+    padding-top: 3%;
+}
+
+.wave{
+    width: 100%;
+}
+
+footer{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+.top{
+    border-bottom: 1px solid var(--color-contrast);
+}
+
+.dim{
+    height: 15px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.small-container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.align{
+    align-items: center;
+    align-content: center;
+}
