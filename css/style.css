@@ -8,6 +8,10 @@ ul{
     list-style: none;
 }
 
+a{
+    text-decoration: none;
+}
+
 :root {
 	--color-scondary: #ffffff;
 	--color-primary: #23272a;
@@ -83,6 +87,20 @@ footer{
 
 .top{
     border-bottom: 1px solid var(--color-contrast);
+}
+
+.sign-in{
+    background-color: var(--color-contrast);
+    color: var(--color-scondary);
+    border-radius: 20px;
+}
+
+ul.list>li:first-child{
+    color: var(--color-contrast);
+}
+
+li{
+    margin-bottom: 10px;
 }
 
 .dim{
