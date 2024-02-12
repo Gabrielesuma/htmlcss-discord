@@ -122,6 +122,35 @@ li{
     height: 15px;
 }
 
+.effect>li>a:hover{
+    color: var(--color-contrast);
+}
+
+.effect2:hover{
+    background-color: var(--color-header-bg);
+}
+
+.min-height{
+    min-height: 400px;
+}
+
+.marg{
+    margin: auto 0;
+}
+
+.l1{
+    width: 45%;
+    background-color: var(--color-contrast);
+}
+
+.bord{
+    border-radius: 30px;
+}
+
+.margin-bottom{
+    margin-bottom: 15px;
+}
+
 .container{
     max-width: 1200px;
     margin: 0 auto;
