@@ -27,6 +27,7 @@ header{
 
 .pad-r{
     padding-right: 20px;
+    color: var(--color-scondary);
 }
 
 .padding{
@@ -35,6 +36,7 @@ header{
 
 .link-bg{
     background-color: var(--color-scondary);
+    color: var(--color-primary);
     border-radius: 20px;
 }
 
@@ -78,6 +80,11 @@ body{
 
 .wave{
     width: 100%;
+    display: block;
+}
+
+.rotate{
+    transform: rotate(180deg);
 }
 
 footer{
@@ -95,7 +102,15 @@ footer{
     border-radius: 20px;
 }
 
-ul.list>li:first-child{
+ul.list>li>a{
+    color: var(--color-scondary);
+}
+
+li>h3{
+    color: var(--color-contrast);
+}
+
+ul.list>li:first-child>a{
     color: var(--color-contrast);
 }
 
